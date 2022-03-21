@@ -12,8 +12,7 @@ const server = http.createServer((req ,res) => {
     // header ,bodtyy
     res.statusCode = 200;
     res.setHeader('Content-Type' , 'text/plain')
-    //너의이름을 출력해보기 
-    // 변수 사용해서
+
     //////
     var name = 'WootakJeon';
     res.end(`${name}`);
